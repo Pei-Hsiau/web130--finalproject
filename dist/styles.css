@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #2a2727;
+}
+
+.footer-1 {
+  display: none;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  body {
+    background-image: url("img/mock.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+h1.mt-5,
+.contact-title {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.contact-title-2 {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+.note {
+  color: #b82020;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.valid {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.warn {
+  font-family: "Didact Gothic", sans-serif;
+  margin-top: 15px;
+}
+
+.background1 {
+  background-image: url("img/business.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 62em) {
+  .picture {
+    background-image: url("img/mock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .picture .mt-5 {
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .picture {
+    background-image: url("img/mock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .container-article {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+}
+
+.container-article2 {
+  background-color: rgba(255, 255, 255, 0.849);
+  padding: 60px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 62em) {
+  .container-article2 {
+    height: 1070px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .container-article2 {
+    height: 1170px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .container-article2 {
+    height: 1170px;
+  }
+}
+
+.contact-page {
+  background-image: url("img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.contact-page2 {
+  background-image: url("img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-item {
+  margin-top: 5px;
+}
+
+.dropdown-item:hover {
+  background-color: #3a3eaa;
+  color: #fff;
+}
+
+.dropdown-item:active {
+  background-color: #4e52cf;
+  color: #fff;
+}
+
+.form-content {
+  margin-bottom: 10px;
+}
+
+.submit {
+  margin-top: 10px;
+  background-color: #362723;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+@media screen and (max-width: 39.99em) {
+  .measure {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .measure {
+    padding: 18px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.849);
+    -webkit-box-shadow: 2px 3px 8px #312f2f;
+    box-shadow: 2px 3px 8px #312f2f;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .measure2 {
+    margin-top: 30px;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.849);
+    -webkit-box-shadow: 2px 3px 8px #312f2f;
+    box-shadow: 2px 3px 8px #312f2f;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .name {
+    margin-top: 10px;
+  }
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+@media screen and (max-width: 39.99em) {
+  .mask {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .row2 {
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 20px;
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .row2 {
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 20px;
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .row2 {
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 30px;
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .news-part {
+    background-color: white;
+  }
+}
+
+.aboutus {
+  background-image: url("img/covid.jpg");
+}
+
+@media screen and (max-width: 39.99em) {
+  .aboutus {
+    margin-bottom: 40px;
+    background-size: cover;
+  }
+}
+
+.aboutus .aboutus-content {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 39.99em) {
+  .aboutus .aboutus-content {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .aboutus .aboutus-content {
+    margin-top: 0;
+  }
+}
+
+.aboutus .aboutus-content .intro {
+  background-color: rgba(255, 255, 255, 0.849);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 62em) {
+  .aboutus .aboutus-content .intro {
+    margin-left: 30px;
+  }
+}
+
+.aboutus .aboutus-content .part1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+.aboutus .aboutus-content .intro-title {
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+}
+
+@media screen and (min-width: 62em) {
+  .aboutus .aboutus-content .intro-title {
+    position: absolute;
+    left: 550px;
+    bottom: 180px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .aboutus .aboutus-content .intro-title {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .aboutus .aboutus-content .intro-title {
+    text-align: right;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .aboutus-all {
+    height: 800px;
+  }
+}
+
+.subscribe {
+  background-color: #362723;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 2px;
+  width: 150px;
+}
+
+.subscribe:hover {
+  background-color: #684c45;
+  color: #fff;
+}
+
+.subscribe:active {
+  background-color: #4e52cf;
+  color: #fff;
+}
+
+@media screen and (max-width: 39.99em) {
+  .subscribe {
+    position: absolute;
+    left: 10px;
+    bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .subscribe {
+    position: absolute;
+    left: 180px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .subscribe {
+    position: absolute;
+    left: 550px;
+    bottom: 120px;
+  }
+}
+
+.our-story {
+  background-color: #3b22c7;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 2px;
+  width: 150px;
+}
+
+.our-story:hover {
+  background-color: #684c45;
+  color: #fff;
+}
+
+.our-story:active {
+  background-color: #4e52cf;
+  color: #fff;
+}
+
+@media screen and (max-width: 39.99em) {
+  .our-story {
+    position: absolute;
+    left: 170px;
+    bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .our-story {
+    position: absolute;
+    left: 15px;
+    bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .our-story {
+    position: absolute;
+    left: 710px;
+    bottom: 120px;
+  }
+}
+
+.row1 {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 39.99em) {
+  .row1 {
+    margin-top: 30px;
+  }
+}
+
+.login {
+  background-color: #362723;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 2px;
+}
+
+.login:hover {
+  background-color: #684c45;
+  color: #fff;
+}
+
+.login:active {
+  background-color: #4e52cf;
+  color: #fff;
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse .nav-link {
+    color: #1f1919;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse .nav-item .underline {
+    height: 3px;
+    background-color: transparent;
+    width: 0%;
+    -webkit-transition: width 0.2s, background-color 0.5s;
+    transition: width 0.2s, background-color 0.5s;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse .nav-item.active .underline {
+    width: 100%;
+    background-color: #3a3eaa;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse .nav-item:hover .underline {
+    background-color: #3a3eaa;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse .nav-item:active .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    color: #3a3eaa;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  #navbarCollapse ul .nav-item:active .underline {
+    -webkit-transition: none;
+    transition: none;
+    background-color: #3a3eaa;
+  }
+}
+
+.search {
+  margin-top: 5px;
+}
+
+.col-md-8 {
+  margin-bottom: 25px;
+}
+
+.col-md-8 a {
+  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 2px;
+}
+
+.col-md-8 p {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 62em) {
+  .col-md-8 .logo-center {
+    margin-top: 65px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-md-8 .logo-center {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .col-md-8 .logo-center {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .col-md-8 .form-signin {
+    margin-top: 30px;
+  }
+}
+
+.loginform {
+  margin-top: 15px;
+}
+
+.btn-block {
+  margin-bottom: 5px;
+}
+
+.mb-3 {
+  margin-top: 5px;
+}
+
+.create {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 62em) {
+  .create {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .create {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .create {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+.readmore {
+  margin-top: 5px;
+  background-color: #362723;
+  color: #fff;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.readmore:hover {
+  background-color: #684c45;
+  color: #fff;
+}
+
+.readmore:active {
+  background-color: #4e52cf;
+  color: #fff;
+}
+
+@media screen and (max-width: 39.99em) {
+  .readmore {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .readmore {
+    position: absolute;
+    bottom: 0;
+    left: 382px;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  .navbar-nav {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .navbar-nav {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  ul {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  ul {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  ul li {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 61.99em) {
+  ul li {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  ul li {
+    margin-top: 10px;
+  }
+}
+
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+}
+/*# sourceMappingURL=styles.css.map */

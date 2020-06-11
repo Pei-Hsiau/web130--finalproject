@@ -1,0 +1,119 @@
+<?php
+session_start();
+$username="Test2020";
+$password="Test013";
+
+if($_POST['username'] == $username && $_POST['password'] == $password)
+
+header( 'Location: customer.html' );
+?>
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Benefeet</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="dist/styles.css" rel="stylesheet">
+</head>
+
+<body class=" background1 d-flex flex-column h-100">
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar navbar-expand-lg navbar-light bg-light">
+      <a href="https://holisticpronerd.com/web130/finalproject/index.html"><img src="img/logo.png" alt="BENEFEET" width="200" height="70" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://holisticpronerd.com/web130/finalproject/index.html">HOME</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+            <div class="underline"></div>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">HISTORY</a>
+              <a class="dropdown-item" href="#">MISSIONS & GOALS</a>
+              <a class="dropdown-item" href="#">NEWS & EVENTS</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
+            <div class="underline"></div>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">SOCK SERIES</a>
+              <a class="dropdown-item" href="#">COSMETICS BOTTLES</a>
+              <a class="dropdown-item" href="#">FACE MASKS</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" arisa-haspopup="true" aria-expanded="false">CONTACT</a>
+            <div class="underline"></div>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">GET QUOTES</a>
+              <a class="dropdown-item" href="#">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="https://holisticpronerd.com/web130/finalproject/login.html">LOGIN</a>
+            <div class="underline"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Begin page content -->
+  <main role="main" class="flex-shrink-0">
+    <div class="container2 container">
+      <div class="row2 row">
+        <div class="col2 col-lg-6 col-md-8 text-center">
+          <img src="img/logo.png" class="logo-center" alt="BENEFEET" width="350" height="122" />
+          <p class="create text-center">Don’t have an account?<br /><a href="">Create account</a> here.</p>
+        </div>
+        <div class="col3 col-lg-6 col-md-8 ">
+          <form class="form-signin" action="customer.html" method="post" accept-charset="UTF-8">
+            <label for="inputUsername" class="sr-only">Username</label>
+            <input type="text" id="inputUsername" class="loginform form-control" name="userid" placeholder="Username" required autofocus>
+            <div id="feedback"></div>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="loginform form-control" name="pswrd" placeholder="Password" required>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="login btn btn-lg btn-block" type="submit" id="submit" onclick="validate()">Log in</button>
+            <label>
+              <a href="" class="forget-link">Forgot password?</a>
+            </label>
+          </form>
+          <span class="warn"><b class="note">
+              Note : </b>For this demo use following username and password. <br />
+            <b class="valid">User Name : Test2020<br />Password : Test013</p></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <footer class="footer-1 footer mt-auto py-3">
+    <div class="container">
+
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+  <script src="dist/app.js"></script>
+  <script src="dist/nav.js"></script>
+</body>
+
+</html>
